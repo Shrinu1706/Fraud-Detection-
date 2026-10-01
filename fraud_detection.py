@@ -12,7 +12,7 @@ st.divider()
 
 transaction_type = st.selectbox(
     'Transaction Type', ['PAYMENT', 'TRANSFER', 'CASH_OUT', 'DEPOSIT'])
-amount = st.number_input('Amount', min_value=0.0, value=10000)
+amount = st.number_input('Amount', min_value=0.0, value=10000.0)
 OldBalanceOrg = st.number_input(
     'Old Balance (Sender)', min_value=0.0, value=10000.0)
 NewBalanceOrig = st.number_input(
